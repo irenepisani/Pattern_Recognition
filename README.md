@@ -5,7 +5,7 @@ Academic year 2021/22
 # Intelligent System for Pattern Recognition
 ###### Midterm Assignments for ISPR course (Prof. Davide Bacciu)
 
-## [MIDTERM 1](midterm_1_5.ipynb) 
+## [Midterm 1](midterm_1_5.ipynb) 
 #### Image Processing: clustering of SIFT descriptors
 
 **Assignment Overview.** Select from the given [dataset](http://download.microsoft.com/download/A/1/1/A116CD80-5B79-407E-B5CE-3D5C6ED8B0D5/msrc_objcategimagedatabase_v1.zip) four thematic subsets of your choice, out of the total 8 available, and collect all the associated images. For these images, extract the **SIFT descriptors** using the visual feature detector embedded in SIFT to identify the points of interest. Aggregate all the identified descriptors in a dataset and run **k-means** (or any clustering algorithm of your choice) on such data to partition the descriptors in **clusters**. Then analyze the obtained clusters by confronting the descriptors assigned to each cluster with the thematic classes of the images from which they were extracted (in other words, compute a confusion matrix between the clusters and the four thematic images). Discuss your findings. Choice of the number of clusters and of the clustering algorithm is on you (and should be discussed in the report).
