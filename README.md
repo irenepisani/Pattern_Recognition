@@ -2,6 +2,8 @@ University of Pisa, UNIPI \
 M.Sc. Computer science, Artificial Intelligence \
 Academic year 2021/22 
 
+
+
 # Intelligent System for Pattern Recognition
 ###### Midterm Assignments for ISPR course (Prof. Davide Bacciu)
 
