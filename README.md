@@ -24,7 +24,7 @@ Academic year 2021/22
 ## [Midterm 3](Midterm_3)
 ### Text Processing: fake news detection with Bi-Directional LSTM Recurrent NN
 
-  * **Dataset:** [External link]([https://archive.ics.uci.edu/ml/datasets/Appliances+energy+prediction#](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset))
+  * **Dataset:** [External link](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset)
   * **Colab Notebook:** [`midterm_3_6.ipynb`](Midterm_3/midterm_3_6.ipynb)
   * **Assignment Overview:** The dataset contains real and fake news, including their title, text, subject, and date. The objective is to train a binary classifier to recognize fake news. You are free to choose the model's architecture, but you should describe and justify your design choices.
 Notice that the fake and real news in the dataset are balanced. However, in the real world, real news are much more frequent than fake ones (hopefully). Simulate the effect of the data imbalance by undersampling/oversampling one of the classes in the training set and compute the test accuracy on a (balanced) test set. Then, try to use a mechanism to make the training robust to imbalances, such as weighting the loss for the samples depending on their class. Discuss the results of this mitigation.You are allowed to preprocess the data however you want (e.g. using pretrained embeddings, dropping some features, just a bag-of-words), but the classification model must be trained by yourself.
