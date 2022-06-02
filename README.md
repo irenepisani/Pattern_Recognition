@@ -34,6 +34,6 @@ Notice that the fake and real news in the dataset are balanced. However, in the 
 ### Reinforcement Learning
 
   * **Paper:** [Carlos Florensa, et al. Automatic Goal Generation for Reinforcement Learning Agents, ICML 2019]([https://archive.ics.uci.edu/ml/datasets/Appliances+energy+prediction#](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset))
-  * **Presentation:** [`midterm_4_15`](Midterm_4/midterm_4_15.pdf)
-  * **Assignment Overview:** Summarize in sort presetation the main findings of the choosen paper. 
+  * **Presentation:** [`midterm_4_15.pdf`](Midterm_4/midterm_4_15.pdf)
+  * **Assignment Overview:** Summarize in short presetation the main findings of the choosen paper. 
 
