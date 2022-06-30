@@ -22,7 +22,7 @@ Academic year 2021/22
   * **Assignment Overview:** Fit an **Hidden Markov Model with Gaussian emissions** to the data in [DSET1](https://archive.ics.uci.edu/ml/datasets/Appliances+energy+prediction#): it is sufficient to focus on the “Appliances” and “Lights” columns of the dataset which measure the energy consumption of appliances and lights, respectively, across a period of 4.5 months. Consider the two columnsin isolation, i.e. train two separate HMM, one for appliances and one for light.  Experiment with HMMs with a varying number of **hidden states** (e.g. at least 2, 3 and 4). Once trained the HMMs, perform **Viterbi** on a reasonably sized subsequence (e.g. 1 month of data) and plot the timeseries data highlighting (e.g. with different colours) the hidden state assigned to each timepoint by the Viterbi algorithm.  Then, try **sampling** a sequence of at least 100 points from the trained HMMs and show it on a plot discussing similarities and differences w.r.t. the ground truth data.
 
 ## [Midterm 3](Midterm_3)
-### Text Processing: fake news detection with Bi-Directional LSTM Recurrent NN
+### Text Processing: fake news classification with Bi-Directional LSTM Recurrent NN
 
   * **Dataset:** [External link](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset)
   * **Colab Notebook:** [`midterm_3_6.ipynb`](Midterm_3/midterm_3_6.ipynb)
